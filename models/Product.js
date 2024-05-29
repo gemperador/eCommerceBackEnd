@@ -1,7 +1,7 @@
 // import important parts of sequelize library
 const { Model, DataTypes } = require('sequelize');
 // import our database connection from config.js
-const sequelize = require('../Develop/config/connection');
+const sequelize = require('../config/connection');
 const { type } = require('os');
 const { isDecimal } = require('validator');
 
